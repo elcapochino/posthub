@@ -1,0 +1,46 @@
+.user-header form[name="follow_unfollow"]{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 70px;
+    margin-top: -5px;
+}
+
+.user-header form[name="follow_unfollow"] button{
+    height: 30px;
+    font-size: 16px;
+    padding: 0 10px;
+    vertical-align: middle;
+}
+
+.user-header form[name="follow_unfollow"] button:hover{
+    background-color: #222;
+}
+
+.user-header button#back{
+    height: 20px;
+    width: 100px;
+    background-color: black;
+    border: 1px black solid;
+    color: #aaa;
+}
+
+.user-header button[name="back"]:hover{
+}
+
+.user-header form[name="back"]{
+    display: block;
+    margin-left: 0;
+    margin-top: 20px;
+}
+
+.user-header h1{
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 10px;
+}
+
+.user-header img{
+    padding: 4px;
+    margin-bottom: -16px;
+    vertical-align: baseline;
+}

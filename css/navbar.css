@@ -1,0 +1,33 @@
+.nav{
+    background-color: #333;
+    color: #fff;
+    text-align: right;
+    height: 40px;
+}
+
+.nav label{
+    font-size: 15px;
+    float: left;
+    margin-top: 8px;
+}
+
+.nav .nav-active{
+    color: #f90;
+}
+
+.nav a{
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 7px 20px;
+    height: 24px;
+    background-color: #333;
+    border-top: 1px solid #333;
+    border-bottom: 1px solid #333;
+}
+
+.nav a:hover{
+    border-bottom: 1px solid #f90;
+    border-top: 1px solid #f90;
+}

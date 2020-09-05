@@ -1,0 +1,127 @@
+
+#side-1{
+    float: left;
+    width: 50%;
+    height: 800px;
+    background-color: black;
+}
+
+#side-2 h1{
+    font-size: 38px;
+    color: #f90;
+}
+
+#side-2 #h-intro{
+    line-height: 1.5em;
+    color: white;
+}
+
+#side-1 img{
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+
+#side-2{
+    float: right;
+    width: 50%;
+    box-sizing: border-box;
+}
+
+#side-2 #h-signup{
+    color: #f90;
+}
+
+#login-form{
+    padding: 35px 100px 35px 30px;
+    margin-bottom: 50px;
+    width: 50%;
+    border-right: 1px solid grey;
+}
+
+#login-form button{
+    margin-top: 10px;
+    height: 28px;
+    border-radius: 1px;
+}
+
+#login-form button:hover{
+    background-color: #222;
+}
+
+#login-form input{
+    width: 100%;
+    font-size: 16px;
+    padding: 5px 8px;
+    border-radius: 3px;
+}
+
+#register-form{
+    margin-top: 40px;
+}
+
+#register-form input{
+    width: 100%;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+#register-form label{
+    font-size: 18px;
+}
+
+#register-form #prename{
+    float: left;
+    width: 48%;
+    box-sizing: border-box;
+}
+
+#register-form #surname{
+    float: right;
+    width: 48%;
+    box-sizing: border-box;
+}
+
+#register-form #birthdate{
+    padding: 5px;
+    font-size: 14px;
+    width: 180px;
+}
+
+#register-form button{
+    margin-top: 30px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 35px;
+}
+
+#register-form button:hover{
+    background-color: #222;
+}
+
+
+
+#radiobuttons div{
+    width: 33.3%;
+    float: left;
+    box-sizing: border-box;
+    padding-top: 5px;
+}
+
+#radiobuttons input[type=radio]{
+    width: auto;
+    margin: 5px 10px 0 10px;
+    float: left;
+}
+
+#radiobuttons label{
+    width: 10px;
+    overflow: hidden;
+    color: white;
+}
+
+.msg-succ{
+    margin-top: 16px;
+}

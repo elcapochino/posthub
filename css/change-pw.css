@@ -1,0 +1,17 @@
+.change-pw form{
+    margin-top: 30px;
+}
+
+.change-pw form input{
+    width: 100%;
+}
+
+.change-pw #submit{
+    padding: 6px 10px;
+    margin-top: 20px;
+    float: right;
+}
+
+#change-pw-content{
+    width: 300px;
+}

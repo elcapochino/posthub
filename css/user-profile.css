@@ -1,0 +1,49 @@
+#user-posts{
+    border-right: 1px #888 solid;
+    vertical-align: top;
+    width: 70%;
+    box-sizing: border-box;
+    padding-right: 5%;
+}
+
+.post-head{
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+#user-info{
+    width: 30%;
+    vertical-align: top;
+    box-sizing: border-box;
+    padding-left: 5%;
+}
+
+#user-info h2{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.follow-list_click{
+    margin: -15px 0;
+}
+
+.follow-list_click p{
+    display: inline-block;
+}
+
+.follow-list_click a{
+    padding-left: 10%;
+    text-decoration: none;
+    color: #f90;
+}
+
+.form-settings{
+    display: inline-block;
+    vertical-align: super;
+    margin-left: 50px;
+}
+
+.form-settings button{
+    padding: 15px;
+    background: url(../img/settings.png) no-repeat center;
+}

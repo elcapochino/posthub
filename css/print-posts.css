@@ -1,0 +1,46 @@
+.post{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.post li{
+    border-top: 1px grey dotted;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.post button{
+    float: right;
+}
+
+.post .more-button{
+    background-color: black;
+    color: #999;
+    border: 1px solid black;
+    padding: 5px 10px;
+}
+
+.post .more-button:hover{
+    border: 1px solid #999;
+}
+
+.post a{
+    text-decoration: none;
+    color: #f90;
+}
+
+.post h3{
+    color: #f90;
+}
+
+
+.btn-delete{
+    background: url(../img/trash_white.png) no-repeat center;
+    margin-top: -15px;
+    padding: 12px;
+}
+
+.no_posts{
+    font-style: italic;
+}

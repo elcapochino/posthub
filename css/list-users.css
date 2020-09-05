@@ -1,0 +1,36 @@
+.user-search{
+    padding: 0;
+    margin: 0;
+}
+
+.user-search a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    line-height: 50px;
+}
+
+.user-search img{
+    display: inline;
+    vertical-align: top;
+    margin-top: 3px;
+    margin-right: 10px;
+}
+
+.user-search li{
+    list-style: none;
+    height: 50px;
+}
+
+.user-search li:hover{
+    border: 1px solid #f90;
+    box-sizing: border-box;
+}
+
+.user-search a:nth-child(even){
+    background: #222;
+}
+
+.user-search a:nth-child(odd){
+    background: #333;
+}
